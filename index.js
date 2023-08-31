@@ -1,5 +1,3 @@
-// index.js
-const { error } = require('console');
 const { fetchMyIP, fetchCoordsByIP } = require('./iss');
 
 fetchMyIP((error, ip) => {
